@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "bet",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "claimPrize",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"IdiotBetting/src/IdiotBetting.sol": "IdiotBettingGame"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"IdiotBetting/src/IdiotBetting.sol": {
+			"keccak256": "0x0743ddaa71844e53a0c78b03946d651d3e32ac4e1b0c3d468ecf5bb92fe67310",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://39e48d5805015fc2b86c26a4d4c6a95c612942940d7544a836299772d6e36993",
+				"dweb:/ipfs/QmY9KhDxowL9LRjTi4Q7NgN8LYJaYKEr4ZNJ222Fioviyr"
+			]
+		}
+	},
+	"version": 1
+}

@@ -13,11 +13,25 @@ contract IdiotBettingGame {
            period has ended. It transfers the entire balance of the contract to the winner.
     */
 
+    uint256 endTime;
+    address winner;
+    uint256 highestDeposit;
+
+    mapping(address => uint) userTotalDeposit;
+
     function bet() public payable {
-        // your code here
+
+        if(msg.value > highestDeposit) {
+            highestDeposit = msg.value;
+            winner = msg.sender;
+            endTime = block.timestamp + 1 hours;
+            userTotalDeposit[msg.sender] += msg.value;
+        }
     }
 
     function claimPrize() public {
-        // your code here
+        require(msg.sender == winner, "You're not the winner");
+        require (block.timestamp >= endTime, "One hour should pass before you claim your prize");
+        payable(winner).transfer(address(this).balance);
     }
 }
