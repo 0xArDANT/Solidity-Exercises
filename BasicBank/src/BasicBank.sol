@@ -8,6 +8,7 @@ contract BasicBank {
 
     /// @notice used to withdraw ether from the contract (No restriction on withdrawals)
     function removeEther(uint256 amount) external payable {
+    	require(address(this).balance <= amount, "The withdrawal amount is too great !");
     	payable(msg.sender).transfer(amount);
     }
 }

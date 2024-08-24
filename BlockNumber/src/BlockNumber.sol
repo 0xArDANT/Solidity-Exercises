@@ -11,10 +11,10 @@ contract BlockNumber {
 
     address public lastCaller;
     uint256 lastBlock;
-
+    
     function callMe() external {
-    	require(block.number > lastBlock, "Only one call per block");
-        lastCaller = msg.sender;
-        lastBlock = block.number;
+    	require(block.number > lastBlock, "You can only make one call per block");
+    	lastCaller = msg.sender;
+    	lastBlock = block.number;
     }
 }

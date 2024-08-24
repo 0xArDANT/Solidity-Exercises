@@ -15,8 +15,8 @@ contract BasicBankV2 {
     /// @notice used to withdraw ether from the contract
     /// @param amount of ether to remove. Cannot execeed balance i.e users cannot withdraw more than they deposited
     function removeEther(uint256 amount) external payable {
-    	require(amount <= balances[msg.sender], "You can't spend more than your balance");
+    	require(balances[msg.sender] >= amount, "You don't have enough funds");
+    	require(amount <= address(this).balance, "Not enough funds");
     	payable(msg.sender).transfer(amount);
-    	balances[msg.sender] -= amount;
     }
 }
