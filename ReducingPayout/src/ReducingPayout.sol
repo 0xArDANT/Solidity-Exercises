@@ -27,6 +27,8 @@ contract ReducingPayout {
             uint256 remainingAmountInGwei = 1 ether -
                 (0.000011574 ether * ellapsedTimeInSeconds);
             payable(msg.sender).transfer(remainingAmountInGwei);
+
         }
     }
 }
+

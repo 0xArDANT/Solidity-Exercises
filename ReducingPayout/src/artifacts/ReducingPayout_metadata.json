@@ -59,11 +59,19 @@
 	},
 	"sources": {
 		"ReducingPayout/src/ReducingPayout.sol": {
+<<<<<<< HEAD
 			"keccak256": "0x1c175bd4f14069e4bf93600cd9374f38fde865a26a431e671c2a24da1b40cd21",
 			"license": "BUSL-1.1",
 			"urls": [
 				"bzz-raw://d8cffa00bfd30bdad5c0ab7d7f8baac5c7bdf6d654782a6b85e64ac3f4e7ac84",
 				"dweb:/ipfs/QmNkJrDbqg52xghx1STNhdaLHrzxAnyT49Xz1GKuydtutg"
+=======
+			"keccak256": "0xe5b57ca96561c9b7cbe9a1cbbe8686a88121f9a5d786bc6829ed559ceec485fa",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://a1b17e9f1890c1019610af48902b7e320387df1f376517007fff1bbcc9a1d173",
+				"dweb:/ipfs/Qmd4ytGDZFfTVNtmjvesb79rJuuuTm3DtBWKiB9iandW14"
+>>>>>>> 7f4edac718c22a19b4239dd60eb53b694a67b0f4
 			]
 		}
 	},
