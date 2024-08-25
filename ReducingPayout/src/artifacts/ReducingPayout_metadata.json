@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "depositedTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ReducingPayout/src/ReducingPayout.sol": "ReducingPayout"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ReducingPayout/src/ReducingPayout.sol": {
+			"keccak256": "0xe5b57ca96561c9b7cbe9a1cbbe8686a88121f9a5d786bc6829ed559ceec485fa",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://a1b17e9f1890c1019610af48902b7e320387df1f376517007fff1bbcc9a1d173",
+				"dweb:/ipfs/Qmd4ytGDZFfTVNtmjvesb79rJuuuTm3DtBWKiB9iandW14"
+			]
+		}
+	},
+	"version": 1
+}
