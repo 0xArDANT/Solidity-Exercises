@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_priceOracle1",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_priceOracle2",
+						"type": "address"
+					}
+				],
+				"name": "getLowerPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"getLowerPrice(address,address)": {
+					"notice": "The function below is to call the price function of PriceOracle1 and PriceOracle2 contracts below and return the lower of the two prices"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"CrossContract/src/CrossContract.sol": "CrossContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"CrossContract/src/CrossContract.sol": {
+			"keccak256": "0x66ad89de432a07980658a06c05c3f2ce7d9c08f7ffb58c11aefdfbd6b60487d2",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://1e7e621d6afad00a33b7ddd3ba38d8f7c5387e2bdd8ad7af87815181ad490fb3",
+				"dweb:/ipfs/QmQMx7pH5Vefm18YHZsc83qyQvoCGQ6bp6fTvX7Wh3HSYg"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "PERCENTAGE_INTEREST",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "calculateInterest",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"calculateInterest(uint256)": {
+					"notice": "The calculate interst function is buggy because of how it calculates interest of amount parsed into it Make it return the right value."
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Divide/src/Divide.sol": "Divide"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Divide/src/Divide.sol": {
+			"keccak256": "0x72d3453041056ffe26e1d8c820902a1db01d149dfc4be660e52be215a65c5e7b",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://f26a4189f23f2c48adb250fa3f213c8b5d54e9dd5dd676d5f1339caddaf26242",
+				"dweb:/ipfs/QmPy34yFvXvkn91NwA1U3fJhTSPtJS2GHHHYsdz1VaSJs3"
+			]
+		}
+	},
+	"version": 1
+}

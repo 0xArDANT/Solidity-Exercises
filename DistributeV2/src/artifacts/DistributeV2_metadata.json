@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address[]",
+						"name": "addresses",
+						"type": "address[]"
+					}
+				],
+				"name": "distributeEther",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"DistributeV2/src/DistributeV2.sol": "DistributeV2"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"DistributeV2/src/DistributeV2.sol": {
+			"keccak256": "0xbe6f3a678d220aea824035372c7a5a48bc9d83f35d39b35b41135ed4268ace48",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://b906d093334bd98b35862c8ef0db9febce0c81fea249b358d86082875cdf4685",
+				"dweb:/ipfs/QmfUQqeWhAN9nw6HXwH64pFmXyFph12RSWxq8wSZqgTLET"
+			]
+		}
+	},
+	"version": 1
+}
