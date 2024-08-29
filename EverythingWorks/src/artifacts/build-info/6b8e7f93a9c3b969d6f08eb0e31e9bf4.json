@@ -1,0 +1,332 @@
+{
+	"id": "6b8e7f93a9c3b969d6f08eb0e31e9bf4",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.26",
+	"solcLongVersion": "0.8.26+commit.8a97fa7a",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"EverythingWorks/src/EverythingWorks.sol": {
+				"content": "// SPDX-License-Identifier: UNLICENSED\npragma solidity ^0.8.13;\n\ncontract EverythingWorks {\n    \n}\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"contracts": {
+			"EverythingWorks/src/EverythingWorks.sol": {
+				"EverythingWorks": {
+					"abi": [],
+					"devdoc": {
+						"kind": "dev",
+						"methods": {},
+						"version": 1
+					},
+					"evm": {
+						"assembly": "    /* \"EverythingWorks/src/EverythingWorks.sol\":65:98  contract EverythingWorks {... */\n  mstore(0x40, 0x80)\n  callvalue\n  dup1\n  iszero\n  tag_1\n  jumpi\n  0x00\n  dup1\n  revert\ntag_1:\n  pop\n  dataSize(sub_0)\n  dup1\n  dataOffset(sub_0)\n  0x00\n  codecopy\n  0x00\n  return\nstop\n\nsub_0: assembly {\n        /* \"EverythingWorks/src/EverythingWorks.sol\":65:98  contract EverythingWorks {... */\n      mstore(0x40, 0x80)\n      0x00\n      dup1\n      revert\n\n    auxdata: 0xa2646970667358221220c8f15965ceb53e028593137f3683e9db0d648f86fbea699daaa8611690c0bf2064736f6c634300081a0033\n}\n",
+						"bytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"linkReferences": {},
+							"object": "6080604052348015600e575f80fd5b50603e80601a5f395ff3fe60806040525f80fdfea2646970667358221220c8f15965ceb53e028593137f3683e9db0d648f86fbea699daaa8611690c0bf2064736f6c634300081a0033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xE JUMPI PUSH0 DUP1 REVERT JUMPDEST POP PUSH1 0x3E DUP1 PUSH1 0x1A PUSH0 CODECOPY PUSH0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xC8 CALL MSIZE PUSH6 0xCEB53E028593 SGT PUSH32 0x3683E9DB0D648F86FBEA699DAAA8611690C0BF2064736F6C634300081A003300 ",
+							"sourceMap": "65:33:0:-:0;;;;;;;;;;;;;;;;;;;"
+						},
+						"deployedBytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"immutableReferences": {},
+							"linkReferences": {},
+							"object": "60806040525f80fdfea2646970667358221220c8f15965ceb53e028593137f3683e9db0d648f86fbea699daaa8611690c0bf2064736f6c634300081a0033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xC8 CALL MSIZE PUSH6 0xCEB53E028593 SGT PUSH32 0x3683E9DB0D648F86FBEA699DAAA8611690C0BF2064736F6C634300081A003300 ",
+							"sourceMap": "65:33:0:-:0;;;;;"
+						},
+						"gasEstimates": {
+							"creation": {
+								"codeDepositCost": "12400",
+								"executionCost": "64",
+								"totalCost": "12464"
+							}
+						},
+						"legacyAssembly": {
+							".code": [
+								{
+									"begin": 65,
+									"end": 98,
+									"name": "PUSH",
+									"source": 0,
+									"value": "80"
+								},
+								{
+									"begin": 65,
+									"end": 98,
+									"name": "PUSH",
+									"source": 0,
+									"value": "40"
+								},
+								{
+									"begin": 65,
+									"end": 98,
+									"name": "MSTORE",
+									"source": 0
+								},
+								{
+									"begin": 65,
+									"end": 98,
+									"name": "CALLVALUE",
+									"source": 0
+								},
+								{
+									"begin": 65,
+									"end": 98,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 65,
+									"end": 98,
+									"name": "ISZERO",
+									"source": 0
+								},
+								{
+									"begin": 65,
+									"end": 98,
+									"name": "PUSH [tag]",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 65,
+									"end": 98,
+									"name": "JUMPI",
+									"source": 0
+								},
+								{
+									"begin": 65,
+									"end": 98,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 65,
+									"end": 98,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 65,
+									"end": 98,
+									"name": "REVERT",
+									"source": 0
+								},
+								{
+									"begin": 65,
+									"end": 98,
+									"name": "tag",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 65,
+									"end": 98,
+									"name": "JUMPDEST",
+									"source": 0
+								},
+								{
+									"begin": 65,
+									"end": 98,
+									"name": "POP",
+									"source": 0
+								},
+								{
+									"begin": 65,
+									"end": 98,
+									"name": "PUSH #[$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 65,
+									"end": 98,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 65,
+									"end": 98,
+									"name": "PUSH [$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 65,
+									"end": 98,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 65,
+									"end": 98,
+									"name": "CODECOPY",
+									"source": 0
+								},
+								{
+									"begin": 65,
+									"end": 98,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 65,
+									"end": 98,
+									"name": "RETURN",
+									"source": 0
+								}
+							],
+							".data": {
+								"0": {
+									".auxdata": "a2646970667358221220c8f15965ceb53e028593137f3683e9db0d648f86fbea699daaa8611690c0bf2064736f6c634300081a0033",
+									".code": [
+										{
+											"begin": 65,
+											"end": 98,
+											"name": "PUSH",
+											"source": 0,
+											"value": "80"
+										},
+										{
+											"begin": 65,
+											"end": 98,
+											"name": "PUSH",
+											"source": 0,
+											"value": "40"
+										},
+										{
+											"begin": 65,
+											"end": 98,
+											"name": "MSTORE",
+											"source": 0
+										},
+										{
+											"begin": 65,
+											"end": 98,
+											"name": "PUSH",
+											"source": 0,
+											"value": "0"
+										},
+										{
+											"begin": 65,
+											"end": 98,
+											"name": "DUP1",
+											"source": 0
+										},
+										{
+											"begin": 65,
+											"end": 98,
+											"name": "REVERT",
+											"source": 0
+										}
+									]
+								}
+							},
+							"sourceList": [
+								"EverythingWorks/src/EverythingWorks.sol",
+								"#utility.yul"
+							]
+						},
+						"methodIdentifiers": {}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.8.26+commit.8a97fa7a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"EverythingWorks/src/EverythingWorks.sol\":\"EverythingWorks\"},\"evmVersion\":\"cancun\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"EverythingWorks/src/EverythingWorks.sol\":{\"keccak256\":\"0x9db775120cd705480df66e3488ac5bd83b8f7afb76ca846fac53e3e64826e4ac\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://a527da3479d6a541198dcacc670c0e481970229ca7c61e32dd2d625e967b770f\",\"dweb:/ipfs/Qmcbb5AM2xuS3HbD6WTSMy2JvhKiYCitfiQm8gwJn6ivox\"]}},\"version\":1}",
+					"storageLayout": {
+						"storage": [],
+						"types": null
+					},
+					"userdoc": {
+						"kind": "user",
+						"methods": {},
+						"version": 1
+					}
+				}
+			}
+		},
+		"sources": {
+			"EverythingWorks/src/EverythingWorks.sol": {
+				"ast": {
+					"absolutePath": "EverythingWorks/src/EverythingWorks.sol",
+					"exportedSymbols": {
+						"EverythingWorks": [
+							2
+						]
+					},
+					"id": 3,
+					"license": "UNLICENSED",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".13"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "39:24:0"
+						},
+						{
+							"abstract": false,
+							"baseContracts": [],
+							"canonicalName": "EverythingWorks",
+							"contractDependencies": [],
+							"contractKind": "contract",
+							"fullyImplemented": true,
+							"id": 2,
+							"linearizedBaseContracts": [
+								2
+							],
+							"name": "EverythingWorks",
+							"nameLocation": "74:15:0",
+							"nodeType": "ContractDefinition",
+							"nodes": [],
+							"scope": 3,
+							"src": "65:33:0",
+							"usedErrors": [],
+							"usedEvents": []
+						}
+					],
+					"src": "39:60:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
