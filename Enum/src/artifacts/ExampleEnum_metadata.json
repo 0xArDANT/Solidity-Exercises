@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "isWeekend",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Enum/src/Enum.sol": "ExampleEnum"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Enum/src/Enum.sol": {
+			"keccak256": "0xf4dc82c1d19e8ff91a28e8eebf384e62d84b56a193d401381b83bb56415330d0",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://fcd26100cf2e7db56702451811162f8e6306c2a80c258a79a9148e1c321c537e",
+				"dweb:/ipfs/QmbmLBrQB63wchEc9aiYeZsvNvQmPKRWPqc9TLeKtSRhcu"
+			]
+		}
+	},
+	"version": 1
+}

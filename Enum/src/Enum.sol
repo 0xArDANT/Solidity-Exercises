@@ -18,6 +18,9 @@ contract ExampleEnum {
     }
 
     function isWeekend(uint256 index) public pure returns (bool) {
-        // your code here
+        if(index == 5 || index == 6) {
+            return true;
+        }
+        else return false;
     }
 }

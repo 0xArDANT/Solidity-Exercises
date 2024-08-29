@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "amountDonated",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Donations/src/Donations.sol": "Donations"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Donations/src/Donations.sol": {
+			"keccak256": "0x5cf25d6258bd0ce3b2106794a4b9ea4e04b1dfbbe729e42d70199acfe1245899",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://6ac70cc036c959f1c85d57a9aa20f98a08748ae0c4409d6b496f6d89c9264e09",
+				"dweb:/ipfs/QmZrmcxjBkQ1ktDqk368jRPQNLtVW9dU1uKXHHt8EvDsQc"
+			]
+		}
+	},
+	"version": 1
+}
