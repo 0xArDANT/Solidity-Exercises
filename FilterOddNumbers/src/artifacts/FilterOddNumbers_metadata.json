@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "_arr",
+						"type": "uint256[]"
+					}
+				],
+				"name": "filterOdd",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"FilterOddNumbers/src/FilterOddNumbers.sol": "FilterOddNumbers"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"FilterOddNumbers/src/FilterOddNumbers.sol": {
+			"keccak256": "0x68a944e50477584de2275d2ed8dafaa0a8b9bf5c2ee9ae29a996dc3eda024c1a",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://f89a13cc2cfd4232110e9f7fbf89ddde1dd3ebb8ea4d9402a0b32a568abc55b9",
+				"dweb:/ipfs/QmVE1DoUCwfeckgQLtU2HgWDxpFHUhQ32QLXp1J6uJuG2G"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"InheritanceOverride/src/InheritanceOverride.sol": "Number"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"InheritanceOverride/src/InheritanceOverride.sol": {
+			"keccak256": "0x1b845ef460e0dced364108f05885fcdfdaf776813be0a4d497dcfc2d915c986b",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://b5e473def11dea9faabfcf035cb6d37787968b82a4d29561e026b122638b59f1",
+				"dweb:/ipfs/QmVM5cULezUbkT5RLk5fkDUtNSUZZLTSoFP8AQoinfoxpc"
+			]
+		}
+	},
+	"version": 1
+}

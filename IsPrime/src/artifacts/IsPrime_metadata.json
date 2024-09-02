@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					}
+				],
+				"name": "isPrime",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"isPrime(uint256)": {
+					"notice": "The goal of this exercise is to return if \"number\" is prime or not (true or false)"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"IsPrime/src/IsPrime.sol": "IsPrime"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"IsPrime/src/IsPrime.sol": {
+			"keccak256": "0xd4a5daad59e2c0264813bc62f6a46cb8a44999df8fd45ac76f69638ac38b441c",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://77b38c36b30a7a684ca7cd3f90a29b811a4a0a5d6cb09de8ff76f602bd58327c",
+				"dweb:/ipfs/QmRV9h1P2uyzmNjEWyufZywJyDrW37qbW5eoqqfGRmc9RQ"
+			]
+		}
+	},
+	"version": 1
+}

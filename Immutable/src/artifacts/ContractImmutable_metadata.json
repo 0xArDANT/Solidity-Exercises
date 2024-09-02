@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Immutable/src/Immutable.sol": "ContractImmutable"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Immutable/src/Immutable.sol": {
+			"keccak256": "0x6a6d870169b1956bf0be9d2ebab04dde7acccb7009107280633a4c3df87de0d0",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://2535c6b49f77fa14199c47f5e2b288e25709198aaa6528f4eeb4f4d898cc6778",
+				"dweb:/ipfs/QmQf1s2LV4AqZyMMVssDamignLbVtckDFBYyWHyjx7zzRW"
+			]
+		}
+	},
+	"version": 1
+}

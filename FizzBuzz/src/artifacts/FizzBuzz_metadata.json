@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "fizzBuzz",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"FizzBuzz/src/FizzBuzz.sol": "FizzBuzz"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"FizzBuzz/src/FizzBuzz.sol": {
+			"keccak256": "0xb3120af5a7a2b2f358016552c80826883943ba1a4166aea0925645f3b22677a1",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://ab00fcf619ef5876a949efae0eb66f0295a06232ce44fb59ae51734e19f0daa1",
+				"dweb:/ipfs/QmTd9nn6nht1vuBdXmhf8RHpyL2GgZTnjVFhFFuc4AxqJU"
+			]
+		}
+	},
+	"version": 1
+}

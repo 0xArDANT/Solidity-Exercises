@@ -1,0 +1,87 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "newValue",
+						"type": "uint256"
+					}
+				],
+				"name": "replaceAtIndex",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"replaceAtIndex(uint256,uint256)": {
+					"notice": "This function is to be used to set/override the value stored at particular index in the array above (named \"arr\")"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"InsertInArray/src/InsertInArray.sol": "InsertInArray"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"InsertInArray/src/InsertInArray.sol": {
+			"keccak256": "0x3b513b2e32cc8c14277c37a30ee3a6c00522ab6fd1d234a16c2a01c1c89acea5",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://688cd6926b5f729b86bf8a36dcf30889e79345a11bee73a9ddf74b907d51640e",
+				"dweb:/ipfs/QmQpYqpPyoRi4bxHg7fDs7sDQJoAYzCYMapYhU5M2ZuaRJ"
+			]
+		}
+	},
+	"version": 1
+}

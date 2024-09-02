@@ -17,4 +17,8 @@ contract InheritanceOverride is Number {
     
     // prettier-ignore
     // your code here
+
+    function getNumber() public pure override returns (uint256) {
+        return 10;
+    } 
 }
