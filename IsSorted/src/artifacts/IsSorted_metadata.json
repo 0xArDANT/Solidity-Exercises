@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					}
+				],
+				"name": "isSorted",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"isSorted(uint256[])": {
+					"notice": "The goal of this exercise is to return true if the members of \"arr\" is sorted (in ascending order) or false if its not."
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"IsSorted/src/IsSorted.sol": "IsSorted"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"IsSorted/src/IsSorted.sol": {
+			"keccak256": "0x32c551f01b5fe546a5d622caea62ae1d164766b8f427f9a08bcee8330639896b",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://684858501477da57d927017b37b6f8a1e0e11217a56b8dc463a7550170b9e52f",
+				"dweb:/ipfs/QmV1H2Z7Ar7TtMafBYo4Ykn1TLHDdwKhQYrhx48QgXor44"
+			]
+		}
+	},
+	"version": 1
+}

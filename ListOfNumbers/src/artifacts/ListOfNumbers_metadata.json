@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					}
+				],
+				"name": "appendToArray",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getArray",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"appendToArray(uint256)": {
+					"params": {
+						"number": "to the array \"arr\""
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"getArray()": {
+					"notice": "return arr"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ListOfNumbers/src/ListOfNumbers.sol": "ListOfNumbers"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ListOfNumbers/src/ListOfNumbers.sol": {
+			"keccak256": "0xd86ca0af7198c5357c48a3a710cc24b59a9b41cc853cde61db9ad23e9970c89f",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://edfa27d0541829aed52ad4389d125cfdde531ff325f8862a4c9af3b24f826172",
+				"dweb:/ipfs/QmZcDeyBgLgMJwSDzj3K7SZntyGLvcxkA2pDeqtmYy6Q2u"
+			]
+		}
+	},
+	"version": 1
+}
