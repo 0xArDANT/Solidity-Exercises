@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "largeEnough",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"NotEnough/src/NotEnough.sol": "NotEnough"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"NotEnough/src/NotEnough.sol": {
+			"keccak256": "0xb892f38455837ea61b8eb2c0ebaef396a483aece306e59e44d66aa9a0ce6e4dd",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://ba6e8f369daee7b4fb19183ce4fad58b9dfe4cf5db643da224ae218700ce078b",
+				"dweb:/ipfs/QmW1qDnVHCKBbuf9ukbvoKg8XM443TEF8axPkHB3JE4PaL"
+			]
+		}
+	},
+	"version": 1
+}

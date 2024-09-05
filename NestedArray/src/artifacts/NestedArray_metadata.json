@@ -1,0 +1,100 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getNestedSum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[][]",
+						"name": "newArr",
+						"type": "uint256[][]"
+					}
+				],
+				"name": "setArr",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"getNestedSum()": {
+					"notice": "This function is expected to get the sum of all members of each nested array and finally return the sum of all the nested sums Example: [[1,2], [3,4]] this should return 1 + 2 + 3 + 4 = 10"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"NestedArray/src/NestedArray.sol": "NestedArray"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"NestedArray/src/NestedArray.sol": {
+			"keccak256": "0x4c76e031272b72706f2d4f8a691080af14f0d9cb7e45254e9c5879a38c2d2d2b",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://252030d7e4bb6705b363fd1e00a701865322c8ab80641a15e1f0f31c10b06713",
+				"dweb:/ipfs/QmY1fqas6SsF2ffddj81Ko49arACgGjppXDo991ZBgiexK"
+			]
+		}
+	},
+	"version": 1
+}

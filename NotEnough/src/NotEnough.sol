@@ -6,6 +6,6 @@ contract NotEnough {
     The function below should only be called with a number greater than 10,
     else it reverts. */
     function largeEnough(uint256 _number) external pure {
-        // add code here
+        require(_number > 10, "Not enough");
     }
 }

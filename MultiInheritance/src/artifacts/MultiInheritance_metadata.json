@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "x",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "y",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MultiInheritance/src/MultiInheritance.sol": "MultiInheritance"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MultiInheritance/src/MultiInheritance.sol": {
+			"keccak256": "0x60ed5608a9c0e9ccb838092c44de19c5871e4e88270ea3a96bc3437467bd73cd",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://89139167cbf40e9ff976d78098d80b8635fa264bf953e26133ded02834660972",
+				"dweb:/ipfs/QmbyRsJUTpRxcJgyR1eT6g8C8rCHbziv9ogcbLC5LEuoj9"
+			]
+		}
+	},
+	"version": 1
+}
