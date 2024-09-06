@@ -1,0 +1,72 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6080604052348015600e575f80fd5b50604480601a5f395ff3fe608060405236600a57005b5f80fdfea2646970667358221220ef35e741462d96010db019c6cbd853abd2b6313dc5cdbf99da920b56f368884764736f6c634300081a0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xE JUMPI PUSH0 DUP1 REVERT JUMPDEST POP PUSH1 0x44 DUP1 PUSH1 0x1A PUSH0 CODECOPY PUSH0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLDATASIZE PUSH1 0xA JUMPI STOP JUMPDEST PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xEF CALLDATALOAD 0xE7 COINBASE CHAINID 0x2D SWAP7 ADD 0xD 0xB0 NOT 0xC6 0xCB 0xD8 MSTORE8 0xAB 0xD2 0xB6 BALANCE RETURNDATASIZE 0xC5 0xCD 0xBF SWAP10 0xDA SWAP3 SIGNEXTEND JUMP RETURN PUSH9 0x884764736F6C634300 ADDMOD BYTE STOP CALLER ",
+			"sourceMap": "63:260:0:-:0;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {
+				"@_5": {
+					"entryPoint": null,
+					"id": 5,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				}
+			},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "608060405236600a57005b5f80fdfea2646970667358221220ef35e741462d96010db019c6cbd853abd2b6313dc5cdbf99da920b56f368884764736f6c634300081a0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLDATASIZE PUSH1 0xA JUMPI STOP JUMPDEST PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xEF CALLDATALOAD 0xE7 COINBASE CHAINID 0x2D SWAP7 ADD 0xD 0xB0 NOT 0xC6 0xCB 0xD8 MSTORE8 0xAB 0xD2 0xB6 BALANCE RETURNDATASIZE 0xC5 0xCD 0xBF SWAP10 0xDA SWAP3 SIGNEXTEND JUMP RETURN PUSH9 0x884764736F6C634300 ADDMOD BYTE STOP CALLER ",
+			"sourceMap": "63:260:0:-:0;;;;;;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "13600",
+				"executionCost": "67",
+				"totalCost": "13667"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": [
+		{
+			"stateMutability": "payable",
+			"type": "receive"
+		}
+	]
+}
