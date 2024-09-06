@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "number",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "setNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"number()": {
+					"notice": "TIP: Only an EOA(externally owned account i.e an address with a private key and public key) can initiate a transaction There's no way for smart contracts to perform transactions except a transaction is initiated by an EOA telling the smart contract what to do. In this exercise the task is to require that the caller of the function \"setNumber(uint256)\" is an EOA using tx.origin and msg.sender keywords"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"OriginVsSender/src/OriginVsSender.sol": "OriginVsSender"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"OriginVsSender/src/OriginVsSender.sol": {
+			"keccak256": "0x613866df086e68a990ede75155a8b7ae57900e7e0c4051b7c3ce97d3219178fd",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://d7cc634d6d9a8a21976bbcd5d2ce33b377ea58204a50d4ff9cf36ced8bf14135",
+				"dweb:/ipfs/QmP5otcBsKWbrGBhPKtf6Ebhw1BYv9U36QbFmkvYVTRQRE"
+			]
+		},
+		"forge-std/console.sol": {
+			"keccak256": "0x91d5413c2434ca58fd278b6e1e79fd98d10c83931cc2596a6038eee4daeb34ba",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://91ccea707361e48b9b7a161fe81f496b9932bc471e9c4e4e1e9c283f2453cc70",
+				"dweb:/ipfs/QmcB66sZhQ6Kz7MUHcLE78YXRUZxoZnnxZjN6yATsbB2ec"
+			]
+		}
+	},
+	"version": 1
+}

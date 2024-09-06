@@ -6,4 +6,6 @@ contract Receive {
     // ether by default. They need a receive
     // function. See here:
     // https://docs.soliditylang.org/en/v0.8.17/contracts.html#receive-ether-function
+
+    receive() external payable {}
 }

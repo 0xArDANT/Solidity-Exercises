@@ -1,0 +1,50 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Receive/src/Receive.sol": "Receive"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Receive/src/Receive.sol": {
+			"keccak256": "0x808ac727e59e67cfe5d97cdf21d7ef6608ac75eb9029feae49818d46c1c03033",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://47d452579c8b80aca18e7d37ce172a8050e35aac45bb0936875dbf8e588e6f5c",
+				"dweb:/ipfs/QmXUnMR4QVVimzxKSzco777d6kBMxmta4fZxwtP3iPjZAn"
+			]
+		}
+	},
+	"version": 1
+}

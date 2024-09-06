@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "magicNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"PublicFunction/src/PublicFunction.sol": "PublicFunction"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"PublicFunction/src/PublicFunction.sol": {
+			"keccak256": "0x7ecd96a3b3c89bb47171f8b8dcf11fa7db5485ea9e82cdf87629294d1ec73977",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://b28b318a7f65394955f78f848e29d55425b021e74b0e02fa9099b04cdc979fd6",
+				"dweb:/ipfs/QmVmdNWtSDkJT2ojHpnyGTMj9CMD9uXPRdR3jEECGLZZsQ"
+			]
+		}
+	},
+	"version": 1
+}

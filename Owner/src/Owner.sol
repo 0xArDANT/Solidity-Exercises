@@ -11,12 +11,17 @@ contract OnlyOwner {
     address owner;
     uint256 public magicNumber;
 
+    modifier onlyOwner(){
+        require(msg.sender == owner, "Not owner");
+        _;
+    }
+
     constructor(address _owner, uint256 _magicNumber) {
         owner = _owner;
         magicNumber = _magicNumber;
     }
 
-    function updateMagicNumber(uint256 _number) public {
+    function updateMagicNumber(uint256 _number) public onlyOwner {
         magicNumber = _number;
     }
 }

@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "buy",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"buy()": {
+					"details": "make this function revert unless exactly 1 ether is sent as value in the function call"
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"PriceIsRight/src/PriceIsRight.sol": "PriceIsRight"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"PriceIsRight/src/PriceIsRight.sol": {
+			"keccak256": "0x4ddbce314aa206da421d4854901648be6765aa9f962d392952a1942c4b0e9008",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://55aba751a0744a60d1e258d030e52f83051dd3f095147b9782ca1d47ba3609cf",
+				"dweb:/ipfs/QmcoiGAZbCXbuCKF44yjS2srmSYbHWQ4WCFZ4rtaEqbnCZ"
+			]
+		}
+	},
+	"version": 1
+}

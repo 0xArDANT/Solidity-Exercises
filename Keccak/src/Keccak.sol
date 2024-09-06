@@ -7,6 +7,6 @@ contract Keccak {
      */
 
     function keccak(uint256 x) external pure returns (bytes32) {
-        return keccak256(abi.encode(x));
+        return keccak256(abi.encodePacked(x));
     }
 }

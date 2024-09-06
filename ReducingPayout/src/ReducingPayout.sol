@@ -22,13 +22,13 @@ contract ReducingPayout {
             address(this).balance == 1 ether,
             "The contract balance isn't 1 ether"
         );
+        require(block.timestamp - depositedTime <= 24 hours, "You can't withdraw after 24 Hours");
         uint256 ellapsedTimeInSeconds = block.timestamp - depositedTime;
-        if (ellapsedTimeInSeconds < 24 hours) {
+        if(ellapsedTimeInSeconds != 24 hours){
             uint256 remainingAmountInGwei = 1 ether -
                 (0.000011574 ether * ellapsedTimeInSeconds);
             payable(msg.sender).transfer(remainingAmountInGwei);
-
-        }
+        }  
     }
 }
 

@@ -6,22 +6,29 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "getX",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "x",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "keccak",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getY",
 				"outputs": [
 					{
-						"internalType": "bytes32",
+						"internalType": "uint256",
 						"name": "",
-						"type": "bytes32"
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -32,17 +39,13 @@
 		},
 		"userdoc": {
 			"kind": "user",
-			"methods": {
-				"keccak(uint256)": {
-					"notice": "In this exercise, the task is to return the correct keccak256 of any value passed into the keccak function"
-				}
-			},
+			"methods": {},
 			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"Keccak/src/Keccak.sol": "Keccak"
+			"PureVsView/src/PureVsView.sol": "PureVsView"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -56,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Keccak/src/Keccak.sol": {
-			"keccak256": "0xc5423ce1602275cbc6b77ab1018e61deb3fa6fe002d331ae8a1f3a45121e1cb0",
+		"PureVsView/src/PureVsView.sol": {
+			"keccak256": "0x437891ecfbcf968af51194a07f6938a6bb9e312e5628b71f7f5acb6cb8530a33",
 			"license": "BUSL-1.1",
 			"urls": [
-				"bzz-raw://05a5602b137541f819c65e54977cacfddd605630eda77aa2b542629d5721375b",
-				"dweb:/ipfs/QmUbvyhPQ7nvKk8jqh7Ya6k7nYow5Bdf6ck51FT2dT2Nj8"
+				"bzz-raw://8419d50c53ef24934e0630a14cc7f5dd93a994bd3791d7228d9988ec22ff3a0e",
+				"dweb:/ipfs/QmPa4cDJiNRPRuE1oNKRf3q3WG2dJWGCEjUSHD4WnkdMjz"
 			]
 		}
 	},
