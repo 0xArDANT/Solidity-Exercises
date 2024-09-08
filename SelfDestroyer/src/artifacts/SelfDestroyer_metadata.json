@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "taker",
+						"type": "address"
+					}
+				],
+				"name": "destroy",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SelfDestroyer/src/SelfDestroyer.sol": "SelfDestroyer"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SelfDestroyer/src/SelfDestroyer.sol": {
+			"keccak256": "0x7233fa869f5c246f9b549edd266573a6313883e605b08b167ab9ec3b2e224f55",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://90746373c00c879c11516ed66d564b2d4a0c3b478caa6fadf026ff30f8f65195",
+				"dweb:/ipfs/QmZp5ArJqwXL7iiqWzF81gZJ2ANeaBd1XynMkoyLhpH9j4"
+			]
+		}
+	},
+	"version": 1
+}

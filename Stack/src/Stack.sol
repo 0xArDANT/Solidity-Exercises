@@ -21,5 +21,25 @@ contract Stack {
         stack = _stack;
     }
 
-    // your code here
+    function push(uint256 n) external {
+        stack.push(n);
+    }
+
+    function peek() public view returns(uint256) {
+        return stack[stack.length - 1];
+    }
+
+    function pop() external returns (uint256) {
+        uint256 n = peek();
+        stack.pop();
+        return n;
+    }
+
+    function size() external view returns(uint256) {
+        return stack.length;
+    }
+
+    function getStack() external view returns(uint256[] memory) {
+        return stack;
+    }
 }

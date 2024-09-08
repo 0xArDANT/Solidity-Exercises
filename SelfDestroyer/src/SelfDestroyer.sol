@@ -12,7 +12,10 @@ contract SelfDestroyer {
     constructor() payable {}
 
     function destroy(address taker) external {
-        // your code here
+
+        //this optcode has been deprecated, it doesn't destroy the contract unless 
+        // it's called in the same transaction as the contract creation
+        selfdestruct(payable(taker));
     }
 
     function getBalance() public view returns (uint256 balance) {

@@ -12,8 +12,7 @@ contract originVsSenderTest is Test {
     }
 
     function testSetNumber() external {
-        address OxArDANT = vm.addr(1);
-        vm.prank(OxArDANT, OxArDANT);
+        vm.prank(msg.sender);
         originVsSender.setNumber(42);
         assertEq(originVsSender.number(), 42, "expected number to be 42");
     }

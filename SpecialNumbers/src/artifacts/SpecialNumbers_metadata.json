@@ -1,0 +1,126 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "isNumberSpecial",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "isSpecial",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "makeNumberNotSpecial",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "makeNumberSpecial",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"isNumberSpecial(uint256)": {
+					"params": {
+						"n": "is special or not"
+					}
+				},
+				"makeNumberNotSpecial(uint256)": {
+					"params": {
+						"n": "not special"
+					}
+				},
+				"makeNumberSpecial(uint256)": {
+					"params": {
+						"n": "special"
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SpecialNumbers/src/SpecialNumbers.sol": "SpecialNumbers"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SpecialNumbers/src/SpecialNumbers.sol": {
+			"keccak256": "0x157a1cd0ab3bcf7f2cf19e5f69dea750799d172b60f8ffc5022fe60a85fbdfde",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://72e08962411deb7cd0ff676278a41fa178e37d75b910023c0e3254d0bc6dfa9e",
+				"dweb:/ipfs/QmaEKtwVfhKADYTWNR2BG5MKydsFRxrvUfN6Ru8PJCNKeZ"
+			]
+		}
+	},
+	"version": 1
+}
