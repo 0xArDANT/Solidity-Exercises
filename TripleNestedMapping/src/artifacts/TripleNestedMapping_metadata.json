@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "password",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "pin",
+						"type": "uint256"
+					}
+				],
+				"name": "isLoggedIn",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "isLogged",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_password",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_pin",
+						"type": "uint256"
+					}
+				],
+				"name": "setLogin",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"TripleNestedMapping/src/TripleNestedMapping.sol": "TripleNestedMapping"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"TripleNestedMapping/src/TripleNestedMapping.sol": {
+			"keccak256": "0x6596e684d9f0208e731da32fd6ed98180eac2d4705187ae0d939dc43deb7a84f",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://94c0a1d5f8937c2df616570597da4a1d2813c90927058bc5d2a928d6b920c058",
+				"dweb:/ipfs/QmdpHr5Tr4XLcQQg65a55V981ABURpPVpZDMHFcbep6S6a"
+			]
+		}
+	},
+	"version": 1
+}

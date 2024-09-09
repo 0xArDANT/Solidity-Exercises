@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint8[3][3]",
+						"name": "board",
+						"type": "uint8[3][3]"
+					}
+				],
+				"name": "isWinning",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"TicTacToe/src/TicTacToe.sol": "TicTacToe"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"TicTacToe/src/TicTacToe.sol": {
+			"keccak256": "0x562cf30ebe06099068170c188dfa014405210233cfd2cc799b6a633d1a3478e5",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://b846bfa77bb00b980bf3f0ea6544132db40a1ebedbe6966e51ad93b72a89a209",
+				"dweb:/ipfs/QmcfVXrmjDMFhj57z3eqbboiJBmrtg4AeHWMoXr7S6oomr"
+			]
+		}
+	},
+	"version": 1
+}

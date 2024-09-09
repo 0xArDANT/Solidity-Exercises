@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getGreetings",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "greetings",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Super/src/Super.sol": "Super"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Super/src/Super.sol": {
+			"keccak256": "0x7f36b343d49dcee1e87a2dfdfcc6a42b17d23b9bfc13666452690525921aba33",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://3382879b56a472bae03e3c47cc5d3ce88812d2450af8100b69d554d856614972",
+				"dweb:/ipfs/QmeP5zFVAR9WKtkQFT9t5ezzMkia4hMKrmCkrPriZsjvgj"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "typeCast",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"typeCast()": {
+					"notice": "the goal of this exercise is to pass if msg.value is equal to the address of this contract or revert otherwise"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Typecast/src/Typecast.sol": "Typecast"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Typecast/src/Typecast.sol": {
+			"keccak256": "0xe81b8a0eb35d08ecbd926828025d3481be506543264076554d488d0bb2e59eda",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://e06cad878a46f4edc322da874afd9c67c61293a6bb959db458701cbce5da15b6",
+				"dweb:/ipfs/QmUzf8NxADq48RZmMf2HuxMVpm4CufuJ82WXUyo7m3x4GG"
+			]
+		}
+	},
+	"version": 1
+}

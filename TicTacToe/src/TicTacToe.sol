@@ -11,6 +11,10 @@ contract TicTacToe {
     */
 
     function isWinning(uint8[3][3] memory board) public pure returns (bool) {
-        // your code here
+        for(uint8 i=0; i<board.length; i++){
+            // There's no need to iterate two time inside the array since the array and sub-arrays have the same size
+            if(board[i][i] != 1) return false;
+        }
+        return true;
     }
 }

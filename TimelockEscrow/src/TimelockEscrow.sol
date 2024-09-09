@@ -31,6 +31,7 @@ contract TimelockEscrow {
     function sellerWithdraw(address buyer) external {
         require(block.timestamp >= withdrawalTime[buyer], "The 3 days freezing period hasn't ended");
         payable(seller).transfer(amountDeposited[buyer]);
+        amountDeposited[buyer] = 0;
     }
 
     /**
