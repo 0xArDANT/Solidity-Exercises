@@ -7,8 +7,13 @@ contract Deployer {
         1. Create an empty contract.
         2. Deploy the contract and return the address in `deployContract` function.
     */
+    DeployedContract deployed;
 
-    function deployContract() public view returns (address) {
-        // your code here
+    function deployContract() public returns (address) {
+        deployed = new DeployedContract();
+        return address(deployed);
+
     }
 }
+
+contract DeployedContract {}

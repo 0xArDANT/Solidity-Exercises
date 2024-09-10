@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Withdraw/src/Withdraw.sol": "Withdraw"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Withdraw/src/Withdraw.sol": {
+			"keccak256": "0x22bdfab8dbe875e4dc3313597f32bd182c1361b1c452972f25b7b7e822f2ceb3",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://cf74ceeab14087d04fb3dc287a3979d03c62fd03fa45c346035e7ef9292b7739",
+				"dweb:/ipfs/Qmetogz4dqmdNwYKuTjRJbufRoUVKFF6WtNxSCWjL7HRSg"
+			]
+		}
+	},
+	"version": 1
+}
